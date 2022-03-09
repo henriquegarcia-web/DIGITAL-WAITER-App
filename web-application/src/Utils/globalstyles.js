@@ -35,3 +35,18 @@ const GlobalStyle = createGlobalStyle`
 `
 
 export default GlobalStyle
+
+export const Screen = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  border: 4px solid orange;
+`
+
+export const Button = styled.button`
+  font-size: 17px;
+  font-weight: 200;
+  padding: 15px 20px;
+  /* border-radius: 6px; */
+`

@@ -16,8 +16,8 @@ function App() {
           <Route path='/' exact element={<Loading />} />
           <Route path='/onboarding' element={<OnBoarding />} />
 
-          <Route path='/login' element={<Login />} />
-          <Route path='/register' element={<Register />} />
+          <Route path='/entrar' element={<Login />} />
+          <Route path='/cadastro' element={<Register />} />
 
           <Route path='/home' element={<Home />} />
 
